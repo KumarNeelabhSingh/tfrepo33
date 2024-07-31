@@ -62,7 +62,7 @@ resource "aws_instance" "web-server" {
 
  instance_type = "t2.micro"
 
- key_name   = var.tls_private_key
+ key_name   = var.keyname
 
 
 
